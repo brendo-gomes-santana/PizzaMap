@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/inicio.css">
   <title>Pizza Map | Home </title>
 </head>
 <body>
@@ -11,8 +13,10 @@
     <header>
       <div class="input">
         <h2>Encontre a pizzaria <br> mais proxima!</h2>
-        <input id="pesquisa" type="text" placeholder="Digite a sua cidade">
-        <button style="padding: 16px 15px; border: none; border-radius: 9px; margin-left: -98px; background: tomato; color: white;" type="button">Pesquisar</button>
+        <div class="inputBox">
+          <input id="pesquisa" type="text" placeholder="Digite a sua cidade">
+          <button type="button" id="buttonSearch"><i class="bi bi-search"></i></button>
+        </div>
       </div>
     </header>
   </div>
