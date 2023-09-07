@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-/*barra de navegacao*/
-nav {
-
 }
 
 /* variaveis de cores  */
@@ -15,4 +10,15 @@ nav {
     --fontePrimary--:'Exo 2', 'Roboto', sans-serif;
     --branca--:#fff;
     --base--:#ad4533;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
 }
