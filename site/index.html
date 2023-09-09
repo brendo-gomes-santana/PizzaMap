@@ -11,7 +11,7 @@
   <title>Pizza Map | Home </title>
 </head>
 <body>
-  <main class="container">
+  <main class="container" mainContainer="content">
       <section class="input">
         <!--  -->
        <header class="text">
@@ -28,17 +28,36 @@
         <button class="explorarBtn"> explorar</button>
       </section>
        <!-- modal -->
-      <section class="modalWindow">
+      <section class="modalWindow active">
         <div class="cadastroContainer">
           <div class="top">
             <button class="closeBtn">X</button>
           </div>
-             <form action="#">
-              <h1> os campos de cadastro |...  </h1>
+             <form action="#" class="FormCadastro">
+                <div class="inputsArea">
+                  <!-- box 1  -->
+                   <div class="box box1">
+                  
+                    <div class="boxImage">
+                     <label for="inputFile"><i class="bi bi-camera"></i></label>
+                     <input type="file" id="inputFile">
+                    </div>
+                  </div>
+                  <!--  b/ -->
+
+                   <!-- box 2 -->
+                   <div class="box box2"></div>
+                   <!-- b/ -->
+
+                   <!-- box 3 -->
+                   <div class="box box3"></div>
+                   <!-- b/ -->
+                </div>
              </form>
         </div>
       </section>
          
   </main>
+  <script src="js/modal.js"></script>
 </body>
 </html>
