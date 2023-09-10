@@ -10,8 +10,12 @@
 :root{
     --fontePrimary--:'Exo 2', 'Roboto', sans-serif;
     --branca--:#fff;
-    --base--:#ad4533;
-    --darck--:#0000004d;
+    --branca-2--:#ffffff6c;
+    --base--:#992e1b;
+    --darck--:#13121271;
+    --opacity--:#0000004d;
+    --inputColor--:pink;
+    --hover--:#2f92d4;
 }
 ul{
     list-style: none;
